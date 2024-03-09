@@ -15,7 +15,7 @@ This repository contains my minimal Neovim configuration written in Lua.
     git clone https://github.com/rachidify/nvim.git ~/.config/nvim
     ```
 
-2. Ensure Neovim is installed on your system.
+2. Ensure [Neovim](https://neovim.io/) is installed on your system.
 
 3. Launch Neovim.
 
