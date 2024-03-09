@@ -30,4 +30,12 @@ return require('packer').startup(function(use)
       require('lualine').setup()
     end
   }
+
+  use {
+    'nvim-telescope/telescope.nvim', tag = '0.1.5',
+    requires = { { 'nvim-lua/plenary.nvim' } },
+    config = function()
+      require('config.telescope').setup()
+    end
+  }
 end)
