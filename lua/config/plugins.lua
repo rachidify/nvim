@@ -15,4 +15,11 @@ return require('packer').startup(function(use)
       require('onedark').load()
     end
   }
+
+  use {
+    'nvim-tree/nvim-tree.lua',
+    config = function()
+      require('nvim-tree').setup()
+    end
+  }
 end)
